@@ -24,6 +24,25 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				/* Dashboard specific colors */
+				'dashboard-sidebar': 'hsl(var(--dashboard-sidebar))',
+				'dashboard-sidebar-foreground': 'hsl(var(--dashboard-sidebar-foreground))',
+				'dashboard-main': 'hsl(var(--dashboard-main))',
+				'dashboard-card': 'hsl(var(--dashboard-card))',
+				'dashboard-card-foreground': 'hsl(var(--dashboard-card-foreground))',
+				
+				/* Brand colors */
+				'brand-orange': 'hsl(var(--brand-orange))',
+				'brand-orange-light': 'hsl(var(--brand-orange-light))',
+				'brand-blue': 'hsl(var(--brand-blue))',
+				'brand-blue-light': 'hsl(var(--brand-blue-light))',
+				
+				/* Status colors */
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				error: 'hsl(var(--error))',
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -32,10 +51,6 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -43,10 +58,6 @@ export default {
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
-				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
@@ -62,6 +73,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-subtle': 'var(--gradient-subtle)',
+			},
+			boxShadow: {
+				'sm': 'var(--shadow-sm)',
+				'md': 'var(--shadow-md)',
+				'lg': 'var(--shadow-lg)',
+				'glow': 'var(--shadow-glow)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
